@@ -19,7 +19,7 @@ public class VerifyTitleTest {
 	    
 	else if (os.contains("nix") || os.contains("aix") || os.contains("nux")){
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");			
+		options.addArguments("--headless=new");			
 		driver = new ChromeDriver(options);
 	}
 
